@@ -1,0 +1,429 @@
+.redbar{
+    width: 100%;
+    height: 66px;
+    background-color: red;
+}
+
+
+
+.ellipse{
+  margin-left: 0;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  margin-top: 14px;
+  border-radius: 50%;
+  position: relative;
+  top: -8px;
+}
+.e{
+  width: 32px;
+ height: 47px;
+ padding-left: 5px;
+ font-family: Poppins;
+ font-size: 43px;
+ font-weight: 600;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.2;
+ letter-spacing: normal;
+ text-align:left;
+ color: #eb2929;
+ cursor: pointer;
+
+}
+
+
+.signin{
+  font-family: Poppins !important;
+  color: #192f60;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: -12px;
+}
+
+.full-login-modal{
+  padding-top: 25px;
+    padding-left: 25px;
+    width: 300px;
+    height: 265px;
+}
+
+.login-create{
+ float: right;
+padding-top: 10px;
+}
+
+.loginModalCss:hover{
+  text-decoration: none !important;
+}
+
+.loginModalCss{
+  width: 250px;
+  font-family: Poppins;
+  font-size: 17px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+  padding: 10px 10px 10px 0px;
+}
+
+.googleButton:hover{
+  opacity: 1;
+  font-size: 18px !important;
+
+}
+
+.googleButton{
+  width: 250px;
+  font-family: Poppins !important;
+  font-size: 17px !important;
+  padding-left: 18px !important;
+  border: solid 1px #c7c7c7 !important;
+  opacity: 0.8;
+}
+
+
+
+.kep-login-facebook.metro {
+  border-radius: 0;
+  width: 250px;
+  height: 50px;
+  margin: 32px 0.2px 32px 0;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  border-radius: 6px;
+  border: solid 1px #c7c7c7;
+}
+
+
+.kep-login-facebook:hover{
+  opacity: 1;
+  font-size: 18px !important;
+}
+
+.kep-login-facebook {
+  
+  font-family: Poppins !important;
+  font-weight: 500 !important;
+  -webkit-font-smoothing: antialiased;
+  color: #084298 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px !important;
+  text-decoration: none;
+  text-transform: none !important;
+  transition: background-color .3s,border-color .3s;
+  background-color: #ffffff !important;
+  border: calc(.06887vw + .67769px) solid #4c69ba;
+  padding: 12px !important;
+  opacity: 0.8;
+}
+
+
+#loginFilter{
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+    
+}
+.signup-line{
+  margin-top: -5px;
+}
+
+.signup{
+  font-family: Poppins !important;
+  color: #192f60;
+    font-size: 17px;
+    text-align: center;
+}
+
+.signup-button{
+  font-family: Poppins !important;
+  color: #dc3545 !important;
+    font-size: 17px;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #0d6efd;
+  text-decoration:none;
+}
+
+
+.loginForm{
+  margin-top: 35px;
+}
+
+.loginForm-details{
+  
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-bottom: 10px;
+}
+
+.loginForm-input{
+  margin: 3px 0px;
+  height: 30px;
+  font-size: 12px;
+  width: 265px;
+}
+
+.submitButton:hover{
+text-decoration: none ;
+}
+.submitButton{
+  font-family: Poppins;
+  font-size: 15px;
+  margin-top: 5px;
+
+}
+
+.create-account-div{
+  width: 358px;
+}
+
+#createFilter{
+  
+ 
+  height: 23px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+ 
+  width: 181px;
+  height: 46px;
+  border-radius: 3px;
+  border: solid;
+  color: white;
+
+
+  
+
+}
+@media only screen and (max-width: 600px){
+
+    .redbar{
+        width: 100%;
+        height: 66px;
+        background-color: red;
+    }
+    .ellipse{
+        margin-left: 0;
+        width: 52px;
+        height: 52px;
+        background-color: white;
+        margin-top: 14px;
+        border-radius: 50%;
+        position: relative;
+        top: -8px;
+        left: 24px;
+      }
+      .e{
+        width: 32px;
+       height: 47px;
+       padding-left: 5px;
+       font-family: Poppins;
+       font-size: 43px;
+       font-weight: 600;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.2;
+       letter-spacing: normal;
+       text-align:left;
+       color: #eb2929;
+      }
+      
+      #loginFilter{
+        
+        
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+        color: white;
+      
+        
+      }
+      
+      #createFilter{
+     
+        
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+       
+        width: 158px;
+        height: 42px;
+        border-radius: 3px;
+        border: solid;
+        color: white;
+     
+      }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 792px) {
+
+    .redbar{
+        width: 100%;
+        height: 66px;
+        background-color: red;
+    }
+    .ellipse{
+        margin-left: 0;
+        width: 52px;
+        height: 52px;
+        background-color: white;
+        margin-top: 14px;
+        border-radius: 50%;
+        position: relative;
+        top: -8px;
+        left: 24px;
+      }
+      .e{
+        width: 32px;
+       height: 47px;
+       padding-left: 5;
+       font-family: Poppins;
+       font-size: 43px;
+       font-weight: 600;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.2;
+       letter-spacing: normal;
+       text-align:left;
+       color: #eb2929;
+      }
+      
+      #loginFilter{
+    
+     
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+        color: white;
+       
+      }
+      
+      #createFilter{
+       
+        width: 152px;
+        height: 23px;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+       
+        width: 158px;
+        height: 42px;
+        border-radius: 3px;
+        border: solid;
+        color: white;
+      
+      }
+}
+
+@media only screen and (min-width: 792px) and (max-width: 1024px) {
+
+    .redbar{
+        width: 100%;
+        height: 66px;
+        background-color: red;
+    }
+    .ellipse{
+        margin-left: 0;
+        width: 52px;
+        height: 52px;
+        background-color: white;
+        margin-top: 14px;
+        border-radius: 50%;
+        position: relative;
+        top: -8px;
+        left: 24px;
+      }
+      .e{
+        width: 32px;
+       height: 47px;
+       padding-left: 5;
+       font-family: Poppins;
+       font-size: 43px;
+       font-weight: 600;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.2;
+       letter-spacing: normal;
+       text-align:left;
+       color: #eb2929;
+      }
+      
+      #loginFilter{
+        
+        
+    
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+        color: white;
+       
+      }
+      
+      #createFilter{
+        
+        
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: normal;
+        text-align: center;
+        padding: 0;
+        width: 158px;
+        height: 42px;
+        border-radius: 3px;
+        border: solid;
+        color: white;
+      
+      }
+    }

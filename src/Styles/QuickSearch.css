@@ -1,0 +1,160 @@
+.centered{
+    margin-bottom: 40px;
+    margin-left: 216px;
+  }
+  
+  .quick_search{
+    margin-top: -55px;
+    margin-left: 37px;
+  }
+  
+  .quicksearches{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  
+  .discover_restaurants{
+      width: 331px;
+    height: 25px;
+    margin-bottom: 20;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  
+  
+  #mainboxposition{
+    margin-left: 204px;
+  }
+  
+  #mainrow{
+    margin-right: 0px;
+    margin-left: 29px;
+  }
+  
+  
+  #box1{
+    width: 321px;
+    height: 140px;
+    margin: 10px;
+    padding-left: 0px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  #foodimg{
+    width: 160px;
+    height: 160px;
+  }
+  .foodtitle {
+    width: 88px;
+    height: 25px;
+    margin: 16px 49px 6px 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .food_description{
+    width: 137px;
+    height: 62px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+  }
+  
+  
+  
+
+  @media only screen and (max-width: 600px){
+    .centered {
+        margin-bottom: 40px;
+        margin-left: 42px;}
+      
+      
+      
+      .quick_search {
+        
+        margin-left: 50px;
+      }
+      
+        #mainrow {
+          margin-left: 29px;
+        }
+      
+      
+      }
+      @media only screen and (min-width: 600px) and (max-width: 792px){
+        .centered {
+            margin-bottom: 40px;
+            margin-left: 14px;
+          }
+          
+          .quick_search{
+            margin-top: -55px;
+            margin-left: 52px;
+          }
+          
+          .no-padding{
+            padding: 0 !important;
+            margin: 0 !important;
+            width: 732px !important;
+          }
+          
+          #mainrow {
+            margin-right: -5px;
+            margin-left: 45px;
+          }
+      }
+
+      @media only screen and (min-width: 792px) and (max-width: 1024px)
+{
+ 
+.centered {
+  margin-bottom: 40px;
+  margin-left: 14px;
+}
+
+.quick_search{
+  margin-top: -55px;
+  margin-left: 52px;
+}
+
+.no-padding{
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 732px !important;
+}
+
+#mainrow {
+  margin-right: -5px;
+  margin-left: 45px;
+}
+
+
+}

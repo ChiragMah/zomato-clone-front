@@ -1,0 +1,360 @@
+#imageGallery{
+    
+    position: relative;
+    margin-top: 20px;
+}
+
+.gallery {
+    height: 400px;
+    width: 400px;
+}
+
+
+#imgButton{
+    position: absolute;
+    right: 80px;
+    bottom: 26px;
+    width: 242px;
+    height: 48px;
+    opacity: 0.8;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #192f60;
+}
+
+.The-Big-Chill-Cakery {
+   margin-top: 20px;
+
+    height: 43px;
+    
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  #place-online-order{
+    width: 223px;
+    height: 50px;
+    padding: 11px 23px 12px 29px;
+    border-radius: 6px;
+    float: right;
+    font-size: 18px;
+    font-family: Poppins;
+  }
+  #place-online-order:hover{
+    text-decoration: none !important;
+  }
+
+  .foodIcon{
+    position: relative;
+    left: 2px;
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+    margin-bottom: 5px;
+  }
+
+  .food-add-position{
+  
+    display: inline-block;
+    position: relative;
+    left: 110px;
+  }
+
+  #buttonCss:hover{
+    text-decoration: none !important;
+  }
+
+  #buttonCss {
+  
+    width: 64px;
+    font-size: 12px;
+  }
+
+  #minus-buttonCss {
+  
+    width: 23px;
+    font-size: 12px;
+  }
+
+  #plus-buttonCss {
+    
+   width: 23px;
+    font-size: 12px;
+  }
+
+  .quantity{
+    padding: 0px 5px;
+    position: relative;
+    top: 3px;
+    left: -1px;
+    font-family: Poppins;
+
+  }
+
+
+  .restaurant-header{
+    font-family: Poppins !important;
+    color: #192f60;
+      font-size: 25px;
+      text-align: left;
+      font-weight: 700;
+      margin-top: 10px;
+  }
+
+.food-itemName{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #292c40;
+  
+  margin-bottom: 10px;
+}
+
+.food-itemPrice{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #292c40;
+  margin-bottom: 10px;
+
+}
+
+.food-itemDescription{
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #696b78;
+}
+
+.total-amount-div{
+
+ font-family: Poppins;
+ font-size: 22px;
+ font-weight: bold;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.5;
+ letter-spacing: normal;
+ text-align: left;
+ color: #292c40;
+ margin-top: 10px;
+}
+.pay-now{
+  float: right;
+  width: 88px;
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
+.pay-now:hover{
+  text-decoration: none !important;
+}
+
+  #nav-home-tab{
+    width: 117px;
+    height: 42px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  #nav-contact-tab{
+    width: 117px;
+    height: 42px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  #nav-home-tab {
+    text-align: center;
+  }
+
+  #nav-contact-tab {
+    text-align: center;
+  }
+
+
+  #detail-header-one{
+    width: 309px;
+    height: 31px;
+    margin: 19.5px 2px 22px 4px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .detail-header-two{
+    width: 135px;
+    height: 55px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .detail-header-three{
+    width: 376px;
+    height: 30px;
+    margin: -5px 25px 0px 1px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+  .btn:hover {
+    text-decoration: underline;
+}
+
+#closeICon{
+    float:right;
+    cursor: pointer;
+}
+.go-back-div{
+  position: relative;
+    top: 2px;
+}
+#goBack{
+  margin-top: 12px;
+  float: right;
+  position: relative;
+  left: 17px;
+}
+
+.order-detail-class{
+  font-family: Poppins;
+  font-size: 16px;
+ 
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #292c40;
+  
+  margin-bottom: 10px;
+}
+
+.order-header{
+  color: #292c40;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.order-header-details{
+  color: #bb2d3b;
+ 
+}
+.make-payment{
+  margin-top: 5px;
+    width: 150px;
+    height: 36px;
+    font-size: 13px;
+}
+
+.glyphicon {
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  #place-online-order {
+    width: 151px;
+    height: 50px;
+    padding: 2px 23px 11px 29px;
+    border-radius: 6px;
+    float: right;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+#imgButton {
+  position: absolute;
+  right: 22px;
+  bottom: 26px;
+  width: 215px;
+  height: 48px;
+  opacity: 0.8;
+  border-radius: 3px;
+  background-color: #ffffff;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #192f60;
+}
+}

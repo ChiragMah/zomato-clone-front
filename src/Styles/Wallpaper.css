@@ -1,0 +1,341 @@
+.homepageimage{
+    width: 100%;
+    height: 400px;
+}
+
+.centrelogo {
+    position: absolute;
+    top: 12%;
+    right: 49%;
+    color: red;
+    font-size: 73px;
+    font-family: Poppins;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.find-best-restaurants{
+    position: relative;
+    top: -175px;
+    text-align: center;
+  height: 51px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: white;
+}
+.searchlocation{
+  position: relative;
+  top: -161px;
+  text-align: center;
+
+}
+
+.foodList{
+  background-color: #f9fafb;
+  width: 542px;
+  position: absolute;
+  left: 612px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+
+
+.img_thumb{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px
+}
+
+.detailList {
+  /*margin: 0 222.5px 2px 17px;*/
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  
+}
+
+#hLine{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -19px;
+  color: #8c96ab;
+  height: 3px;
+}
+
+.cityDetails{
+  width: 151px;
+  height: 17px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+
+
+.typelocation{
+  width: 214px;
+  height: 44px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #636f88;
+  padding-left: 20px;
+  padding-right: 10px;
+
+}
+
+.city-options{
+ font-size: 14px;
+ color: #192f60;
+}
+#searchicon{
+  left: 43px;
+  top: 2px;
+  width: 17px;
+  height: 17px;
+  opacity: 0.97;
+  color: #838282;
+  margin-right: -20px;
+}
+
+.search-for-restaurants{
+  width: 500px;
+  height: 40px;
+  margin: -47px 0 0 35px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+  padding-left: 39px;
+
+}
+
+@media only screen and (min-width: 792px) and (max-width: 1024px)
+{
+    .centrelogo {
+      position: absolute;
+      top: 12%;
+      right: 49%;
+      color: red;
+      font-size: 73px;
+      font-family: Poppins;
+      width: 110px;
+      height: 110px;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+    }
+    
+    .find-best-restaurants {
+      position: relative;
+        top: -182px;
+        text-align: center;
+        height: 51px;
+        font-family: Poppins;
+        font-size: 33px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        color: white;
+    }
+    
+    .searchlocation {
+      position: relative;
+      top: -131px;
+      text-align: center;
+    }
+    
+    .search-for-restaurants {
+      width: 366px;
+        height: 40px;
+        margin: 0 0 0 19px;
+        font-family: Poppins;
+        font-size: 13;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+        padding-left: 39px;
+    }
+    
+    #searchicon {
+      
+      
+      width: 17px;
+      height: 17px;
+      
+      opacity: 0.97;
+      color: #838282;
+      margin-right: -20px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 792px)
+{
+
+.centrelogo {
+  position: absolute;
+  top: 12%;
+  right: 43%;
+  color: red;
+  font-size: 73px;
+  font-family: Poppins;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.find-best-restaurants {
+  position: relative;
+    top: -182px;
+    text-align: center;
+    height: 51px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: white;
+}
+
+.searchlocation {
+  position: relative;
+  top: -131px;
+  text-align: center;
+}
+
+.search-for-restaurants {
+  width: 366px;
+    height: 40px;
+    margin: 0 0 0 19px;
+    font-family: Poppins;
+    font-size: 13;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    padding-left: 39px;
+}
+
+#searchicon {
+  
+  
+  width: 17px;
+  height: 17px;
+  
+  opacity: 0.97;
+  color: #838282;
+  margin-right: -20px;
+}
+}
+
+@media only screen and (max-width: 600px)
+{
+.centrelogo {
+  position: absolute;
+    top: 11%;
+    right: 39%;
+    color: red;
+    font-size: 66px;
+    font-family: Poppins;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.find-best-restaurants {
+  position: relative;
+    top: -195px;
+    text-align: center;
+    height: 51px;
+    font-family: Poppins;
+    font-size: 31px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: white;
+}
+
+.searchlocation {
+  position: relative;
+  top: -146px;
+  text-align: center;
+}
+
+.search-for-restaurants {
+    width: 288px;
+    height: 40px;
+    margin: 8px 0 0;
+    font-family: Poppins;
+    font-size: 13;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: center;
+    color: #636f88;
+    padding-left: 39px;
+    padding-right: 39px;
+}
+
+#searchicon {
+    
+    
+    width: 17px;
+    height: 17px;
+   
+    opacity: 0.97;
+    color: #838282;
+    margin-right: -20px;
+}
+}
