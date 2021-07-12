@@ -60,7 +60,7 @@ class Details extends React.Component{
 
         axios({
             method: 'GET',
-            url: `http://localhost:2022/restaurantbyid/${resId}`,
+            url: `https://pure-retreat-44124.herokuapp.com/restaurantbyid/${resId}`,
             headers: {'Content-Type' : 'application/json'}
         })
         .then(response => {
@@ -77,7 +77,7 @@ class Details extends React.Component{
         if(state == 'menuItemsModalIsOpen' && value == true){
             axios({
                 method: 'GET',
-                url: `http://localhost:2022/menuitemsbyrestaurant/${resId}`,
+                url: `https://pure-retreat-44124.herokuapp.com/menuitemsbyrestaurant/${resId}`,
                 headers: {'Content-type': 'application/json'}
             })
             .then(response =>
@@ -160,7 +160,7 @@ class Details extends React.Component{
     }
 
     getData = (data) => {
-        return fetch(`http://localhost:2022/payment`, {
+        return fetch(`https://pure-retreat-44124.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
@@ -185,7 +185,7 @@ class Details extends React.Component{
             
                    axios({
                        method:'POST',
-                       url: 'http://localhost:2022/addorder',
+                       url: 'https://pure-retreat-44124.herokuapp.com/addorder',
                        headers:{'Content-Type': 'application/json'},
                        data: inputObj
                    })
