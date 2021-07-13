@@ -105,7 +105,7 @@ class Header extends React.Component {
     
     axios({
       method: 'POST',
-      url: 'http://pure-retreat-44124.herokuapp.com/login',
+      url: 'https://pure-retreat-44124.herokuapp.com/login',
       headers: {'Content-Type' : 'application/json'},
       data : inputObject
   })
@@ -141,7 +141,7 @@ const inputObject = {
 
 axios({
   method: 'POST',
-  url: 'http://pure-retreat-44124.herokuapp.com/adduser',
+  url: 'https://pure-retreat-44124.herokuapp.com/adduser',
   headers: {'Content-Type' : 'application/json'},
   data : inputObject
 })

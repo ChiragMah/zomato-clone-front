@@ -26,7 +26,7 @@ sessionStorage.setItem('locationId', locationId);
 
 axios({
 method: 'GET',
-url: `http://pure-retreat-44124.herokuapp.com/restaurantsbylocation/${locationId}`,
+url: `https://pure-retreat-44124.herokuapp.com/restaurantsbylocation/${locationId}`,
 headers: {'Content-type': 'application/json'}
 })
 .then(response => this.setState({restaurantList: response.data.restaurant_list}))

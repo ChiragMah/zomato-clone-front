@@ -22,7 +22,7 @@ class Home extends React.Component{
 
        axios({
         method: 'GET',
-        url: 'http://pure-retreat-44124.herokuapp.com/locations',
+        url: 'https://pure-retreat-44124.herokuapp.com/locations',
         headers: {'Content-Type': 'application/json'}
 
        }).
@@ -31,7 +31,7 @@ class Home extends React.Component{
 
        axios({
         method: 'GET',
-        url: 'http://pure-retreat-44124.herokuapp.com/mealtypes',
+        url: 'https://pure-retreat-44124.herokuapp.com/mealtypes',
         headers: {'Content-Type': 'application/json'}
 
        }).
