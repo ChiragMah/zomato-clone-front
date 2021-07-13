@@ -36,7 +36,7 @@ class Filter extends React.Component{
 
         axios({
             method: 'POST',
-            url: 'https://pure-retreat-44124.herokuapp.com/filter',
+            url: 'http://pure-retreat-44124.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data : inputObj
         })
@@ -45,7 +45,7 @@ class Filter extends React.Component{
 
         axios({
             method: 'GET',
-            url: 'https://pure-retreat-44124.herokuapp.com/locations',
+            url: 'http://pure-retreat-44124.herokuapp.com/locations',
             headers: {'Content-Type': 'application/json'}
     
            }).
@@ -57,7 +57,7 @@ class Filter extends React.Component{
     apiCall = (inputObj) => {
         axios({
             method: 'POST',
-            url: 'https://pure-retreat-44124.herokuapp.com/filter',
+            url: 'http://pure-retreat-44124.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data : inputObj
         })
@@ -87,7 +87,7 @@ class Filter extends React.Component{
     };
     axios({
         method: 'POST',
-        url: 'https://pure-retreat-44124.herokuapp.com/filter',
+        url: 'http://pure-retreat-44124.herokuapp.com/filter',
         headers: {'Content-Type' : 'application/json'},
         data : inputObj
     })
@@ -114,7 +114,7 @@ class Filter extends React.Component{
 
 axios({
     method: 'POST',
-    url: 'https://pure-retreat-44124.herokuapp.com/filter',
+    url: 'http://pure-retreat-44124.herokuapp.com/filter',
     headers: {'Content-Type' : 'application/json'},
     data : inputObj
 })
@@ -153,7 +153,7 @@ else {
       
         axios({
             method: 'POST',
-            url: 'https://pure-retreat-44124.herokuapp.com/filter',
+            url: 'http://pure-retreat-44124.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data : inputObj
         })
@@ -178,7 +178,7 @@ else {
 
         axios({
             method: 'POST',
-            url: 'https://pure-retreat-44124.herokuapp.com/filter',
+            url: 'http://pure-retreat-44124.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data : inputObj
         })
@@ -203,7 +203,7 @@ else {
 
         axios({
             method: 'POST',
-            url: 'https://pure-retreat-44124.herokuapp.com/filter',
+            url: 'http://pure-retreat-44124.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data : inputObj
         })

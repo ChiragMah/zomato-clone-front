@@ -60,7 +60,7 @@ class Details extends React.Component{
 
         axios({
             method: 'GET',
-            url: `https://pure-retreat-44124.herokuapp.com/restaurantbyid/${resId}`,
+            url: `http://pure-retreat-44124.herokuapp.com/restaurantbyid/${resId}`,
             headers: {'Content-Type' : 'application/json'}
         })
         .then(response => {
@@ -77,7 +77,7 @@ class Details extends React.Component{
         if(state == 'menuItemsModalIsOpen' && value == true){
             axios({
                 method: 'GET',
-                url: `https://pure-retreat-44124.herokuapp.com/menuitemsbyrestaurant/${resId}`,
+                url: `http://pure-retreat-44124.herokuapp.com/menuitemsbyrestaurant/${resId}`,
                 headers: {'Content-type': 'application/json'}
             })
             .then(response =>
@@ -160,7 +160,7 @@ class Details extends React.Component{
     }
 
     getData = (data) => {
-        return fetch(`https://pure-retreat-44124.herokuapp.com/payment`, {
+        return fetch(`http://pure-retreat-44124.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
@@ -185,7 +185,7 @@ class Details extends React.Component{
             
                    axios({
                        method:'POST',
-                       url: 'https://pure-retreat-44124.herokuapp.com/addorder',
+                       url: 'http://pure-retreat-44124.herokuapp.com/addorder',
                        headers:{'Content-Type': 'application/json'},
                        data: inputObj
                    })
@@ -199,7 +199,7 @@ class Details extends React.Component{
             // Payment API Call
             this.getData({ amount: subTotal, email: email }).then(response => {
                 var information = {
-                    action: "https://securegw-stage.paytm.in/order/process",
+                    action: "http://securegw-stage.paytm.in/order/process",
                     params: response
                 }
                 this.post(information)
