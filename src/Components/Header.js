@@ -3,8 +3,8 @@ import React from 'react';
 import '../Styles/Header.css'
 import {withRouter} from 'react-router-dom';
 import Modal from 'react-modal'
-import GoogleLogin from 'react-google-login';
-import FacebookLogin from 'react-facebook-login';
+/*import GoogleLogin from 'react-google-login';
+import FacebookLogin from 'react-facebook-login';*/
 import axios from 'axios';
 
 
@@ -71,7 +71,7 @@ class Header extends React.Component {
     }
 
 
-    responseGoogle = (response) => {
+   /* responseGoogle = (response) => {
         console.log(response);
         this.setState({userName: response.profileObj.name, isLoggedIn: true, loginModalIsOpen: false});
         
@@ -81,7 +81,7 @@ class Header extends React.Component {
         console.log(response);
         this.setState({userName: response.name, isLoggedIn: true, loginModalIsOpen: false});
         
-      }
+      } */
 
       handleLoggingIn = () => {
           this.setState({loggingInModalIsOpen: true});
@@ -211,7 +211,7 @@ axios({
               <div  className ="full-login-modal">
               
               <div>
-              <GoogleLogin
+             {/* <GoogleLogin
                 clientId="527468700079-somrem3jv1t62q5b4nqq8kuvcpi9da51.apps.googleusercontent.com"
                 buttonText="Login with Google"
                 onSuccess={this.responseGoogle}
@@ -227,7 +227,7 @@ axios({
                     fields="name,email,picture"
                     callback={this.responseFacebook}
                     
-                     />
+             /> */}
                    </div>
                 <div>
                 <button type="button" className="btn btn-outline-danger loginModalCss"  onClick = {this.handleLoggingIn}>Login with your account</button>
